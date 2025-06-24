@@ -225,7 +225,7 @@ public class BDao {
 			conn=DBCon.getConnection();
 //			autocommit변경
 			conn.setAutoCommit(false);//자동커밋해제
-			
+//			테스트 
 			
 
 			int rn1=replyShape(bgroup,bstep,conn);
