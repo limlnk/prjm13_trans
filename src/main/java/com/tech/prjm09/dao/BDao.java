@@ -339,7 +339,7 @@ public class BDao {
 			}
 		}
 		
-		return rn;
+		return -1;
 	}
 
 }
