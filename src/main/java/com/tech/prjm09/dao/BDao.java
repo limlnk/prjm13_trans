@@ -216,6 +216,7 @@ public class BDao {
 	public void reply(String bid,String bname,
 			String btitle,String bcontent,
 			String bgroup,String bstep, String bindent) {
+		//transaction
 		
 			replyShape(bgroup,bstep);
 		
